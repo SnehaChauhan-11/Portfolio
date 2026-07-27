@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { HERO_TYPING_STATEMENTS } from "../data/portfolioData";
-import { Sparkles, ArrowRight, FileText, Wand2, Play, CheckCircle } from "lucide-react";
+import { Sparkles, FileText, Wand2, Play, CheckCircle } from "lucide-react";
 
 interface HeroProps {
   onOpenResume: () => void;
@@ -171,16 +171,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume, onOpenPromptStudio }) 
 
             {/* Call to Action Buttons */}
             <div className="pt-2 flex flex-wrap items-center gap-4">
-              {/* View Portfolio Button */}
-              <a
-                href="#projects"
-                id="hero-view-portfolio-btn"
-                className="flex items-center gap-2 px-6 py-3.5 rounded-xl font-bold text-slate-950 bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 hover:from-cyan-300 hover:to-indigo-300 shadow-xl shadow-cyan-500/25 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] font-sans"
-              >
-                <span>View Portfolio</span>
-                <ArrowRight className="w-4 h-4" />
-              </a>
-
               {/* Download Resume Button */}
               <button
                 onClick={onOpenResume}
