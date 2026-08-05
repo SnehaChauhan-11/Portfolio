@@ -62,7 +62,8 @@ export type GalleryCategory =
   | "Product Ads"
   | "Portraits"
   | "Landscapes"
-  | "Cinematic Frames";
+  | "Cinematic Frames"
+  | "Science & Tech";
 
 export interface GalleryItem {
   id: string;

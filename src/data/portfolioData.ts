@@ -425,48 +425,150 @@ export const FEATURED_PROJECTS: Project[] = [
         prompt: "Prambanan temple spires in Indonesia at dusk --ar 16:9"
       }
     ]
+  },
+  {
+    id: "p11",
+    projectNumber: "PROJECT 08",
+    title: "AI CINEMATIC VISUALS",
+    concept: "Explore next-generation AI cinema and visual storytelling.",
+    category: "AI Film & Visuals",
+    genreTag: "AI Film & Visuals",
+    thumbnail: "https://img.youtube.com/vi/iiY4htPBVds/hqdefault.jpg",
+    videoPreviewUrl: "https://assets.mixkit.co/videos/preview/mixkit-lights-in-a-night-city-41221-large.mp4",
+    youtubeUrl: "https://youtu.be/iiY4htPBVds",
+    buttonText: "Watch Project →",
+    duration: "1 min 15 sec",
+    aiTools: ["Google Flow", "Runway Gen-3", "Kling AI", "ElevenLabs"],
+    shortDescription: "A high-concept AI cinematic exploration featuring state-of-the-art camera dynamics, prompt engineering, and synthetic media storytelling.",
+    fullDescription: "An immersive AI cinematic project combining cutting-edge visual generators, fluid camera motion, and compelling soundscapes.",
+    masterPrompt: "Cinematic hyperrealistic shot, futuristic AI visual sequence, volumetric lighting, epic depth of field, 8k --ar 16:9",
+    negativePrompt: "low resolution, blurry, noise, distortion",
+    seed: "8810293",
+    cameraMovement: "Cinematic tracking shot with dynamic focus transition",
+    lightingStyle: "Volumetric rim lighting with dramatic shadows",
+    fps: 30,
+    views: "1.2M Views",
+    clientOrBrand: "AI Cinematic Lab",
+    featured: true,
+    storyboard: [
+      {
+        frameNumber: 1,
+        title: "Visual Sequence",
+        image: "https://img.youtube.com/vi/iiY4htPBVds/hqdefault.jpg",
+        description: "Key cinematic frame from the AI visual project.",
+        prompt: "Cinematic AI visual scene with atmospheric lighting --ar 16:9"
+      }
+    ]
+  },
+  {
+    id: "p12",
+    projectNumber: "PROJECT 09",
+    title: "SYNTHETIC MOTION EXPERIENCE",
+    concept: "Pushing the bounds of generative motion graphics and cinematic storytelling.",
+    category: "Generative Cinema",
+    genreTag: "Generative Cinema",
+    thumbnail: "https://img.youtube.com/vi/TbPpXFsTanc/hqdefault.jpg",
+    videoPreviewUrl: "https://assets.mixkit.co/videos/preview/mixkit-fireworks-illuminating-the-sky-41558-large.mp4",
+    youtubeUrl: "https://youtu.be/TbPpXFsTanc",
+    buttonText: "Watch Experience →",
+    duration: "1 min 05 sec",
+    aiTools: ["Google Veo", "Runway Gen-3", "Midjourney", "Luma Dream Machine"],
+    shortDescription: "A generative motion story blending hyperrealistic character rendering with surreal, atmospheric environments.",
+    fullDescription: "Exploring synthetic motion graphics, advanced generative AI models, and fluid scene transitions for digital storytelling.",
+    masterPrompt: "Atmospheric generative scene, ultra-detailed textures, cinematic color grading, soft volumetric atmosphere, 8k --ar 16:9",
+    negativePrompt: "blurry, low contrast, distorted geometry",
+    seed: "5510294",
+    cameraMovement: "Slow push-in camera sweep with orbital perspective",
+    lightingStyle: "Ambient twilight glow with glowing accents",
+    fps: 30,
+    views: "980K Views",
+    clientOrBrand: "Generative Motion",
+    featured: true,
+    storyboard: [
+      {
+        frameNumber: 1,
+        title: "Motion Frame",
+        image: "https://img.youtube.com/vi/TbPpXFsTanc/hqdefault.jpg",
+        description: "Synthetic motion frame showcase.",
+        prompt: "Generative motion visual sequence --ar 16:9"
+      }
+    ]
+  },
+  {
+    id: "p13",
+    projectNumber: "PROJECT 10",
+    title: "FUTURE FRONTIERS AI",
+    concept: "Immersive story-driven AI creation showcasing future visual worlds.",
+    category: "Sci-Fi & Future AI",
+    genreTag: "Sci-Fi & Future AI",
+    thumbnail: "https://img.youtube.com/vi/FsCZ2wg6fss/hqdefault.jpg",
+    videoPreviewUrl: "https://assets.mixkit.co/videos/preview/mixkit-top-view-of-chocolate-bars-and-ingredients-42352-large.mp4",
+    youtubeUrl: "https://youtu.be/FsCZ2wg6fss",
+    buttonText: "Watch Film →",
+    duration: "1 min 30 sec",
+    aiTools: ["Google Flow", "Kling AI", "Midjourney v6", "ElevenLabs"],
+    shortDescription: "A futuristic AI film presenting imaginative world-building, high-detail character consistency, and cinematic atmosphere.",
+    fullDescription: "Future Frontiers AI film showcasing rich sci-fi aesthetics, advanced prompt engineering, and continuous character consistency across narrative scenes.",
+    masterPrompt: "Futuristic sci-fi landscape, cinematic wide shot, glowing holograms and architectural wonders, sunset lighting, 8k --ar 16:9",
+    negativePrompt: "blurry, flat shading, noise",
+    seed: "3104928",
+    cameraMovement: "High-angle sweeping crane shot moving forward",
+    lightingStyle: "Golden sunset backlight with vivid neon highlights",
+    fps: 24,
+    views: "1.4M Views",
+    clientOrBrand: "Future Frontiers",
+    featured: true,
+    storyboard: [
+      {
+        frameNumber: 1,
+        title: "Future World",
+        image: "https://img.youtube.com/vi/FsCZ2wg6fss/hqdefault.jpg",
+        description: "Futuristic world-building opening scene.",
+        prompt: "Sci-fi landscape with glowing futuristic elements --ar 16:9"
+      }
+    ]
   }
 ];
 
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "g1",
-    title: "Cybernetic Valkyrie",
-    category: "Characters",
+    title: "Science center innovation",
+    category: "Science & Tech",
     image: "https://i.ibb.co/DfHNzMQn/sci-img.png",
     aspectRatio: "3:4",
     aspectRatioLabel: "3:4 Portrait",
-    prompt: "Cyberpunk female warrior with intricate glowing sapphire neural implants, metallic shoulder armor, hyperrealistic skin textures, volumetric dark background, shot on 85mm portrait lens --ar 3:4 --v 6.0",
-    negativePrompt: "cartoon, flat shading, extra eyes, bad anatomy",
+    prompt: "Modern science center innovation exhibit featuring interactive futuristic technology displays, sleek architectural design, dynamic cyan and violet lighting, photorealistic --ar 3:4",
+    negativePrompt: "blurry, low resolution, dark clutter",
     aiModel: "Google Flow",
-    seed: "9982341",
-    styleKeywords: ["Cyberpunk", "Portrait", "Sapphire Glow", "85mm Lens"]
+    seed: "8120492",
+    styleKeywords: ["Science Center", "Innovation", "Futuristic", "High Tech"]
   },
   {
     id: "g2",
-    title: "Floating Astral Palace",
+    title: "Did you know?",
     category: "Fantasy",
     image: "https://i.ibb.co/j941Kqb3/banana-berry.png",
     aspectRatio: "16:9",
     aspectRatioLabel: "16:9 Cinematic",
-    prompt: "Ethereal crystal palace floating amidst pink and indigo sunset cloudscape, golden waterfalls spilling into void, high fantasy concept art, octane render --ar 16:9",
-    negativePrompt: "text, watermark, low resolution, dark blur",
-    aiModel: "Flux 1.1 Pro",
-    seed: "7741298",
-    styleKeywords: ["High Fantasy", "Cloudscape", "Crystal Architecture"]
+    prompt: "Vibrant creative concept art depicting interesting food facts and banana berry fusion graphics, high resolution, clean visual composition --ar 16:9",
+    negativePrompt: "blurry, low resolution, noise, distortion",
+    aiModel: "Google Flow",
+    seed: "6429184",
+    styleKeywords: ["Food Concept", "Creative Visuals", "Vibrant"]
   },
   {
     id: "g3",
-    title: "Emperor's Throne Room, 220 BCE",
-    category: "Historical",
+    title: "MIDNIGHT FEAST",
+    category: "Product Ads",
     image: "https://i.ibb.co/5xzdGxBf/feastable-pic.png",
     aspectRatio: "4:3",
     aspectRatioLabel: "4:3 Standard",
-    prompt: "Qin Dynasty imperial palace throne room, burning bronze incense burners with intricate dragons, dark polished obsidian floor reflecting red lanterns, historic photorealism --ar 4:3",
-    negativePrompt: "modern elements, electric light, cheap plastic",
+    prompt: "Midnight feast snack product presentation with dark moody lighting, cinematic food photography, rich chocolate feastables style aesthetic --ar 4:3",
+    negativePrompt: "blurry, messy composition, low quality",
     aiModel: "Google Flow",
-    seed: "4512903",
-    styleKeywords: ["Ancient History", "Imperial Red", "Obsidian Reflection"]
+    seed: "2048193",
+    styleKeywords: ["Food Photography", "Product Presentation", "Midnight Vibe"]
   },
   {
     id: "g4",
@@ -483,42 +585,42 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: "g6",
-    title: "Neon Leopard in Night Jungle",
-    category: "Animals",
+    title: "Orange city",
+    category: "Concept Art",
     image: "https://i.ibb.co/KjkNYH0d/orange-city.png",
     aspectRatio: "1:1",
     aspectRatioLabel: "1:1 Square",
-    prompt: "Wild leopard resting on a tree branch at night with UV fluorescent bioluminescent fur patterns glowing in ultraviolet light, sharp eyes, photorealistic 8k --ar 1:1",
-    negativePrompt: "cage, collar, human, cartoon, low detail",
+    prompt: "Surreal urban skyline bathed in warm orange and golden sunset glow, architectural city landscape with vivid orange tones --ar 1:1",
+    negativePrompt: "blurry, dark, low contrast",
     aiModel: "Google Flow",
-    seed: "3391029",
-    styleKeywords: ["UV Glow", "Wildlife", "Fluorescent"]
+    seed: "7193042",
+    styleKeywords: ["Cityscape", "Orange Sunset", "Urban Landscape"]
   },
   {
     id: "g7",
-    title: "Chrono-Engine Core Concept",
+    title: "Dream city",
     category: "Concept Art",
     image: "https://i.ibb.co/wr8jS9gT/dream-travel.jpg",
     aspectRatio: "16:9",
     aspectRatioLabel: "16:9 Panoramic",
-    prompt: "Industrial hard surface concept art of a quantum fusion core, glowing orange plasma ring surrounded by mechanical brass gears and hydraulic steam valves, volumetric fog --ar 16:9",
-    negativePrompt: "flat colors, low detail, simple render",
+    prompt: "Atmospheric dream city travel concept art with surreal architectural vistas, soft misty horizon, cinematic lighting --ar 16:9",
+    negativePrompt: "flat render, low resolution, distortion",
     aiModel: "Google Flow",
-    seed: "9910293",
-    styleKeywords: ["Hard Surface", "Quantum Core", "Steampunk Sci-Fi"]
+    seed: "5821039",
+    styleKeywords: ["Dreamscape", "Concept Art", "Atmospheric"]
   },
   {
     id: "g9",
-    title: "The Alchemist's Study",
-    category: "Portraits",
+    title: "Future in AI",
+    category: "Science & Tech",
     image: "https://i.ibb.co/TMspyrFt/Ai-img.png",
     aspectRatio: "3:4",
     aspectRatioLabel: "3:4 Portrait",
-    prompt: "Close up portrait of an elderly bearded alchemist examining a glowing amber potion bottle in a candlelit library, detailed wrinkles, Rembrandt lighting --ar 3:4",
-    negativePrompt: "plastic skin, smooth face, modern clothes",
+    prompt: "Futuristic artificial intelligence visualization with glowing neural network connections, holographic data interfaces, modern technological aesthetics --ar 3:4",
+    negativePrompt: "blurry, low detail, vintage clutter",
     aiModel: "Google Flow",
-    seed: "5510293",
-    styleKeywords: ["Rembrandt Lighting", "Alchemist", "Detailed Texture"]
+    seed: "9182304",
+    styleKeywords: ["Artificial Intelligence", "Futuristic", "Neural Network"]
   },
   {
     id: "g11",
@@ -532,6 +634,58 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     aiModel: "Google Flow",
     seed: "7723901",
     styleKeywords: ["IMAX Cinematic", "Orbital Station", "Earth Horizon"]
+  },
+  {
+    id: "g12",
+    title: "Gemini Vision",
+    category: "Science & Tech",
+    image: "https://i.ibb.co/SXTkgdnq/Gemini-Generated-Image-soc70csoc70csoc7.png",
+    aspectRatio: "16:9",
+    aspectRatioLabel: "16:9 Cinematic",
+    prompt: "Futuristic generative visual created with Gemini AI model, hyperrealistic details, vivid color palette, cinematic high resolution rendering --ar 16:9",
+    negativePrompt: "blurry, low resolution, noise, distortion",
+    aiModel: "Gemini AI",
+    seed: "9948210",
+    styleKeywords: ["Gemini AI", "Generative Art", "Futuristic"]
+  },
+  {
+    id: "g13",
+    title: "ChatGPT Vision Concept",
+    category: "Concept Art",
+    image: "https://i.ibb.co/bMZBN4Sz/Chat-GPT-Image-Aug-4-2026-10-00-00-PM.png",
+    aspectRatio: "1:1",
+    aspectRatioLabel: "1:1 Square",
+    prompt: "Futuristic generative concept art rendered with DALL-E and ChatGPT, vibrant creative styling, high detail --ar 1:1",
+    negativePrompt: "blurry, low quality, noise",
+    aiModel: "DALL-E 3",
+    seed: "8839201",
+    styleKeywords: ["ChatGPT", "Generative Art", "Digital Art"]
+  },
+  {
+    id: "g14",
+    title: "Generative Vision Lab",
+    category: "Concept Art",
+    image: "https://i.ibb.co/0VjPDRQB/Chat-GPT-Image-Jul-29-2026-07-39-06-PM.png",
+    aspectRatio: "16:9",
+    aspectRatioLabel: "16:9 Cinematic",
+    prompt: "Surreal generative landscape visualization with rich artistic aesthetics and cinematic depth --ar 16:9",
+    negativePrompt: "blurry, dark blur, low resolution",
+    aiModel: "DALL-E 3",
+    seed: "7104928",
+    styleKeywords: ["Generative Art", "Cinematic", "Surreal"]
+  },
+  {
+    id: "g15",
+    title: "3D Hearing Audio Tech",
+    category: "Science & Tech",
+    image: "https://i.ibb.co/jkqGnSC0/hearing-d-3d.png",
+    aspectRatio: "4:3",
+    aspectRatioLabel: "4:3 Standard",
+    prompt: "3D anatomical and technological visual representation of auditory science and hearing technology, clean precision medical render --ar 4:3",
+    negativePrompt: "blurry, low resolution, noise",
+    aiModel: "Midjourney v6",
+    seed: "3092814",
+    styleKeywords: ["3D Visualization", "Hearing Tech", "Medical Render"]
   }
 ];
 
