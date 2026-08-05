@@ -56,7 +56,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPromptStudio, onOpenResume
             </div>
 
             <p className="text-xs text-slate-400 leading-relaxed font-sans max-w-sm">
-              Dedicated to pushing the boundaries of AI visual storytelling, prompt engineering, and cinematic motion generation across global media channels. Email - singh11lavi@gmail.com
+              Dedicated to pushing the boundaries of AI visual storytelling, prompt engineering, and cinematic motion generation across global media channels.
+              <span className="block mt-2 text-sm sm:text-base font-bold text-slate-100">Email - singh11lavi@gmail.com</span>
             </p>
 
             <div className="pt-2 flex items-center gap-3 text-slate-400">
