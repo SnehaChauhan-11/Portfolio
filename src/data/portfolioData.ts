@@ -527,6 +527,40 @@ export const FEATURED_PROJECTS: Project[] = [
         prompt: "Sci-fi landscape with glowing futuristic elements --ar 16:9"
       }
     ]
+  },
+  {
+    id: "p14",
+    projectNumber: "PROJECT 11",
+    title: "AI SHORTS STORIES",
+    concept: "Fast-paced vertical cinematic AI visual short experience.",
+    category: "AI Vertical Cinema",
+    genreTag: "AI Vertical Cinema",
+    thumbnail: "https://img.youtube.com/vi/J6axlS5EUXo/hqdefault.jpg",
+    videoPreviewUrl: "https://assets.mixkit.co/videos/preview/mixkit-lights-in-a-night-city-41221-large.mp4",
+    youtubeUrl: "https://youtube.com/shorts/J6axlS5EUXo",
+    buttonText: "Watch Short →",
+    duration: "45 sec",
+    aiTools: ["Google Flow", "Runway Gen-3", "Midjourney v6", "ElevenLabs"],
+    shortDescription: "A vertical cinematic AI short crafted with high-impact visual storytelling, dynamic camera motion, and vivid atmosphere.",
+    fullDescription: "A high-octane AI vertical video experience pushing the boundaries of short-form motion generation and visual effects.",
+    masterPrompt: "Cinematic vertical portrait shot, hyperrealistic AI short story visual, dynamic lighting, dramatic depth of field --ar 9:16",
+    negativePrompt: "blurry, low resolution, noise, distortion",
+    seed: "7401928",
+    cameraMovement: "Fast vertical pan with orbital camera drift",
+    lightingStyle: "Neon high-contrast rim light with rich background bokeh",
+    fps: 30,
+    views: "850K Views",
+    clientOrBrand: "AI Short Cinema",
+    featured: true,
+    storyboard: [
+      {
+        frameNumber: 1,
+        title: "Short Visual",
+        image: "https://img.youtube.com/vi/J6axlS5EUXo/hqdefault.jpg",
+        description: "Key vertical frame from the AI Short story.",
+        prompt: "Vertical AI visual scene with dynamic lighting --ar 9:16"
+      }
+    ]
   }
 ];
 
