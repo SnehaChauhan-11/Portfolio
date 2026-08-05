@@ -1,5 +1,5 @@
 import React from "react";
-import { Sparkles, ArrowUp, Mail, Send, Wand2, Youtube, Linkedin } from "lucide-react";
+import { Sparkles, ArrowUp, Send, Wand2, Youtube, Linkedin } from "lucide-react";
 
 interface FooterProps {
   onOpenPromptStudio: () => void;
@@ -56,17 +56,10 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPromptStudio, onOpenResume
             </div>
 
             <p className="text-xs text-slate-400 leading-relaxed font-sans max-w-sm">
-              Dedicated to pushing the boundaries of AI visual storytelling, prompt engineering, and cinematic motion generation across global media channels.
+              Dedicated to pushing the boundaries of AI visual storytelling, prompt engineering, and cinematic motion generation across global media channels. Email - singh11lavi@gmail.com
             </p>
 
             <div className="pt-2 flex items-center gap-3 text-slate-400">
-              <a
-                href="mailto:singh11lavi@gmail.com"
-                className="hover:text-cyan-400 transition-colors"
-                title="Email: singh11lavi@gmail.com"
-              >
-                <Mail className="w-5 h-5" />
-              </a>
               <a
                 href="https://www.youtube.com/@SnehaVerse-r7c"
                 target="_blank"
