@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Download, FileText, Check, X, Sparkles, Terminal, Briefcase, GraduationCap, FolderGit2, Wrench, Linkedin, Mail, MapPin } from "lucide-react";
+import { Download, FileText, Check, X, Sparkles, Terminal, Briefcase, GraduationCap, FolderGit2, Wrench, Linkedin, Mail, MapPin, ExternalLink, Award } from "lucide-react";
+import { IndiaFutureAILogo } from "./IndiaFutureAILogo";
 
 interface ResumeModalProps {
   isOpen: boolean;
@@ -65,7 +66,8 @@ SELECTED PROJECTS:
 CREATIVE TOOLKIT:
 Google Flow • Runway • Veo • Kling AI • Midjourney • Leonardo AI • Claude • ChatGPT • ElevenLabs • DaVinci Resolve
 
-EDUCATION:
+EDUCATION & FELLOWSHIP:
+• IndiaFutureAI — Trained AI Creator Fellow (https://www.indiafutureai.com/)
 • LL.B. — MJS College, Jiwaji University
 • B.Com — Kusum Bai College, Jiwaji University
 `
@@ -293,13 +295,30 @@ EDUCATION:
             </div>
           </div>
 
-          {/* Education */}
+          {/* Education & Fellowships */}
           <div className="space-y-2 pt-2 border-t border-slate-800">
             <h3 className="text-xs font-mono text-cyan-400 uppercase font-bold flex items-center gap-1.5 tracking-wider">
               <GraduationCap className="w-4 h-4" />
-              <span>EDUCATION</span>
+              <span>EDUCATION & FELLOWSHIPS</span>
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+              <a
+                href="https://www.indiafutureai.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-slate-900/90 p-3 rounded-xl border border-orange-500/40 hover:border-orange-400 transition-all flex flex-col justify-between group"
+              >
+                <div>
+                  <div className="flex items-center justify-between gap-1">
+                    <div className="flex items-center gap-1.5">
+                      <IndiaFutureAILogo className="w-4 h-4" />
+                      <span className="font-bold text-slate-100 group-hover:text-white">AI Creator Fellow</span>
+                    </div>
+                    <ExternalLink className="w-3 h-3 text-orange-400 group-hover:translate-x-0.5 transition-transform" />
+                  </div>
+                  <span className="text-orange-400/90 font-mono text-[11px] block mt-1">IndiaFutureAI</span>
+                </div>
+              </a>
               <div className="bg-slate-900/60 p-3 rounded-xl border border-slate-800">
                 <span className="font-bold text-white block">LL.B.</span>
                 <span className="text-slate-400 font-mono text-[11px]">MJS College, Jiwaji University</span>

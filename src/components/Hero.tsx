@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { HERO_TYPING_STATEMENTS } from "../data/portfolioData";
-import { Sparkles, FileText, Wand2, Play, CheckCircle } from "lucide-react";
+import { Sparkles, FileText, Wand2, Play, CheckCircle, ExternalLink } from "lucide-react";
+import { IndiaFutureAILogo } from "./IndiaFutureAILogo";
 
 interface HeroProps {
   onOpenResume: () => void;
@@ -190,6 +191,21 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume, onOpenPromptStudio }) 
                 <Wand2 className="w-4 h-4 text-cyan-400" />
                 <span>Try Prompt Studio</span>
               </button>
+            </div>
+
+            {/* IndiaFutureAI Fellowship Tab */}
+            <div className="pt-1">
+              <a
+                href="https://www.indiafutureai.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                id="hero-indiafutureai-fellow-tab"
+                className="inline-flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-slate-900/90 hover:bg-slate-800/90 border border-orange-500/30 hover:border-orange-400/80 text-slate-200 hover:text-white transition-all duration-200 shadow-md shadow-slate-950/50 group text-xs sm:text-sm font-medium"
+              >
+                <IndiaFutureAILogo className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                <span>I am IndiaFutureAI trained AI Creator Fellow</span>
+                <ExternalLink className="w-3.5 h-3.5 text-orange-400/90 group-hover:text-orange-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
+              </a>
             </div>
 
             {/* Quick Tech Stack Badges */}
