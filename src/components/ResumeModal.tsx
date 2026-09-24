@@ -29,6 +29,7 @@ Location: Bhind, Madhya Pradesh
 Email: singh11lavi@gmail.com
 LinkedIn: https://linkedin.com/in/sneha-chauhan-4a4895418
 Twitter/X: https://x.com/Sneha_Chauhan11
+YouTube: https://www.youtube.com/channel/UCsmHXu_bhOwsQxy4h_d2lgg
 
 ABOUT MY WORK:
 I create cinematic AI-generated videos, photorealistic imagery, brand advertisements, historical recreations, educational visuals, and story-driven short films. My workflow combines creative direction with advanced AI tools to produce consistent, immersive, production-ready content — every project begins with a story, using AI to build emotionally engaging experiences through consistent characters, cinematic composition, thoughtful pacing, and purposeful design.
@@ -226,7 +227,7 @@ EDUCATION & FELLOWSHIP:
                 </a>
                 <span>•</span>
                 <a
-                  href="https://www.youtube.com/@SnehaVerse-r7c"
+                  href="https://www.youtube.com/channel/UCsmHXu_bhOwsQxy4h_d2lgg"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-cyan-400 hover:underline flex items-center gap-1"

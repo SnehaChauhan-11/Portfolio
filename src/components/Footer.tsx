@@ -62,7 +62,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPromptStudio, onOpenResume
 
             <div className="pt-2 flex items-center gap-3 text-slate-400">
               <a
-                href="https://www.youtube.com/@SnehaVerse-r7c"
+                href="https://www.youtube.com/channel/UCsmHXu_bhOwsQxy4h_d2lgg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-cyan-400 transition-colors"
